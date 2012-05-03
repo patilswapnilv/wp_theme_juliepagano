@@ -20,3 +20,26 @@
     <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
     <?php wp_head(); ?>
   </head>
+    <header>
+      <div class='container'>
+        <h1 class='logo seven columns'>
+          <a href="blog">Julie Pagano</a>
+        </h1>
+        <nav class='nine columns'>
+          <ul class='nav'>
+            <li>
+              <a class="index" href="index">home</a>
+            </li>
+            <li>
+              <a class="about" href="about">about</a>
+            </li>
+            <li>
+              <a class="blog active" href="blog">blog</a>
+            </li>
+            <li>
+              <a class="contact" href="contact">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
