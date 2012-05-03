@@ -67,4 +67,9 @@
     </footer>
     <?php wp_footer(); ?>
   </body>
+
+  <!-- Imported js from main site -->
+  <script src="<?php bloginfo( 'template_directory' ); ?>/javascripts/twitter.js" type="text/javascript"></script>
+  <script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
+  <script src="http://api.twitter.com/1/statuses/user_timeline.json?screen_name=juliepagano&callback=twitterCallback&include_rts=true&count=3" type="text/javascript"></script>
 </html>
