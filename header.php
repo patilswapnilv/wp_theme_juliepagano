@@ -10,9 +10,6 @@
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/stylesheets/site.css" type="text/css" media="screen" />
     <link href="<?php bloginfo( 'template_directory' ); ?>/stylesheets/fonts/bebas_neue/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="<?php bloginfo( 'template_directory' ); ?>/stylesheets/fonts/league_gothic/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="<?php bloginfo( 'template_directory' ); ?>/stylesheets/skeleton/base.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="<?php bloginfo( 'template_directory' ); ?>/stylesheets/skeleton/skeleton.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="<?php bloginfo( 'template_directory' ); ?>/stylesheets/skeleton/layout.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="<?php bloginfo( 'template_directory' ); ?>/stylesheets/site.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- Imported js from main site -->
@@ -27,24 +24,25 @@
     <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
     <?php wp_head(); ?>
   </head>
+  <body>
     <header>
       <div class='container'>
-        <h1 class='logo seven columns'>
-          <a href="blog">Julie Pagano</a>
+        <h1 class='logo'>
+          <a href="/">Julie Pagano</a>
         </h1>
-        <nav class='nine columns'>
+        <nav>
           <ul class='nav'>
             <li>
-              <a class="index" href="index">home</a>
+              <a class="index" href="/">home</a>
             </li>
             <li>
-              <a class="about" href="about">about</a>
+              <a class="about" href="/about">about</a>
             </li>
             <li>
-              <a class="blog active" href="blog">blog</a>
+              <a class="blog active" href="/blog">blog</a>
             </li>
             <li>
-              <a class="contact" href="contact">contact</a>
+              <a class="contact" href="/contact">contact</a>
             </li>
           </ul>
         </nav>

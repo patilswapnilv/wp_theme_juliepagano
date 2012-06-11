@@ -2,9 +2,7 @@
 
     <div id='main' role='main'>
       <div id='page_title'>
-        <div class='container'>
-          <h1>BLOG</h1>
-        </div>
+         <h1>BLOG</h1>
       </div>
       <div class='container'>
         <?php if ( have_posts() ) : ?>
