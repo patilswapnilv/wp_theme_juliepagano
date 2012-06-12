@@ -164,7 +164,7 @@ li {
         clear: both; } }
 
 /* line 1, header.css.scss */
-header {
+body > header {
   background: #5fa69b;
   position: relative;
   margin: 25px 0 0;
@@ -174,10 +174,10 @@ header {
   box-shadow: 0px 0px 4px black; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     /* line 1, header.css.scss */
-    header {
+    body > header {
       padding: 0 10px; } }
   /* line 13, header.css.scss */
-  header h1.logo {
+  body > header h1.logo {
     float: left;
     width: 300px;
     height: 100px;
@@ -185,11 +185,11 @@ header {
     margin: -6px 0 -61px 0; }
     @media only screen and (max-width: 767px) {
       /* line 13, header.css.scss */
-      header h1.logo {
+      body > header h1.logo {
         float: none;
         margin: 0 auto; } }
     /* line 26, header.css.scss */
-    header h1.logo a {
+    body > header h1.logo a {
       display: block;
       height: 75px;
       line-height: 75px;
@@ -197,33 +197,33 @@ header {
       width: 300px; }
       @media only screen and (max-width: 767px) {
         /* line 26, header.css.scss */
-        header h1.logo a {
+        body > header h1.logo a {
           margin-left: 100px; } }
       /* line 37, header.css.scss */
-      header h1.logo a:hover {
+      body > header h1.logo a:hover {
         text-decoration: none;
         color: black; }
   /* line 45, header.css.scss */
-  header nav {
+  body > header nav {
     float: right;
     line-height: 60px;
     margin: 0 10px; }
     @media only screen and (max-width: 767px) {
       /* line 45, header.css.scss */
-      header nav {
+      body > header nav {
         width: 300px;
         float: none;
         margin: 0 auto; } }
     /* line 56, header.css.scss */
-    header nav ul.nav {
+    body > header nav ul.nav {
       font-size: 110%; }
       @media only screen and (max-width: 767px) {
         /* line 56, header.css.scss */
-        header nav ul.nav {
+        body > header nav ul.nav {
           margin: -50px 0 0 90px;
           display: block; } }
       /* line 64, header.css.scss */
-      header nav ul.nav a {
+      body > header nav ul.nav a {
         padding: 5px 10px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -232,7 +232,7 @@ header {
         border-radius: 5px;
         font-weight: bold; }
         /* line 69, header.css.scss */
-        header nav ul.nav a:hover, header nav ul.nav a.active {
+        body > header nav ul.nav a:hover, body > header nav ul.nav a.active {
           color: black;
           background: #B5D4D0;
           text-decoration: none; }
@@ -527,6 +527,56 @@ ul.social li {
   background-image: url("../images/about_extra.png");
   background-position: top left;
   padding-left: 125px; }
+
+/* line 2, blog.css.scss */
+.blog .content {
+  width: 70%;
+  float: left; }
+  @media only screen and (max-width: 767px) {
+    /* line 2, blog.css.scss */
+    .blog .content {
+      width: auto; } }
+
+/* line 12, blog.css.scss */
+article {
+  position: relative; }
+  /* line 15, blog.css.scss */
+  article header {
+    min-height: 80px; }
+    /* line 18, blog.css.scss */
+    article header h1 {
+      margin-left: 75px; }
+    /* line 22, blog.css.scss */
+    article header .date {
+      width: 65px;
+      height: 65px;
+      background: url("../images/green_circle_65.png") no-repeat;
+      font-family: BebasNeueRegular;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      /* line 32, blog.css.scss */
+      article header .date span {
+        display: block;
+        text-align: center;
+        line-height: 1em; }
+        /* line 37, blog.css.scss */
+        article header .date span.month {
+          font-size: 20px;
+          padding-top: 12px; }
+        /* line 42, blog.css.scss */
+        article header .date span.day {
+          font-size: 26px; }
+        /* line 46, blog.css.scss */
+        article header .date span.year {
+          font-size: 18px;
+          display: none; }
+
+/* line 55, blog.css.scss */
+div.sidebar {
+  width: 28%;
+  margin-left: 2%;
+  float: left; }
 
 /* line 2, footer.css.scss */
 footer #ribbon {
