@@ -66,7 +66,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 36, site.css.scss */
+/* line 49, site.css.scss */
 body {
   font-size: 13px;
   font-family: Arial, sans-serif;
@@ -74,40 +74,40 @@ body {
   color: black;
   background: url("../images/background.png") #87a09d; }
 
-/* line 44, site.css.scss */
+/* line 57, site.css.scss */
 a {
   color: black;
   text-decoration: none; }
   /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:hover {
     color: #144ea9; }
-  /* line 48, site.css.scss */
+  /* line 61, site.css.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 53, site.css.scss */
+/* line 66, site.css.scss */
 strong {
   font-weight: bold; }
 
-/* line 57, site.css.scss */
+/* line 70, site.css.scss */
 p {
   margin-bottom: 1em; }
 
-/* line 61, site.css.scss */
+/* line 74, site.css.scss */
 blockquote, blockquote p {
   font-size: 1em; }
 
-/* line 65, site.css.scss */
+/* line 78, site.css.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2em; }
 
-/* line 69, site.css.scss */
+/* line 82, site.css.scss */
 h1 {
   font-size: 3.5em;
   font-weight: normal;
   font-family: 'LeagueGothicRegular', Impact, Arial; }
 
-/* line 75, site.css.scss */
+/* line 88, site.css.scss */
 h2 {
   font-size: 2.5em;
   font-weight: normal;
@@ -115,25 +115,25 @@ h2 {
   margin-bottom: 0.5em;
   font-family: 'LeagueGothicRegular', Arial; }
 
-/* line 83, site.css.scss */
+/* line 96, site.css.scss */
 h3 {
   font-size: 1.5em;
   margin-bottom: 0.5em; }
 
-/* line 88, site.css.scss */
+/* line 101, site.css.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.3em; }
 
-/* line 93, site.css.scss */
+/* line 106, site.css.scss */
 ul {
   margin-bottom: 1em; }
 
-/* line 97, site.css.scss */
+/* line 110, site.css.scss */
 li {
   margin-bottom: 0.3em; }
 
-/* line 101, site.css.scss */
+/* line 114, site.css.scss */
 .container {
   display: block;
   width: 960px;
@@ -149,7 +149,7 @@ li {
   .container:after {
     clear: both; }
   @media only screen and (min-width: 960px) {
-    /* line 101, site.css.scss */
+    /* line 114, site.css.scss */
     .container {
       display: block;
       width: 960px;
@@ -225,19 +225,39 @@ body > header {
       /* line 64, header.css.scss */
       body > header nav ul.nav a {
         padding: 5px 10px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        border-radius: 5px;
-        font-weight: bold; }
+        font-weight: bold;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -ms-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s; }
         /* line 69, header.css.scss */
         body > header nav ul.nav a:hover, body > header nav ul.nav a.active {
           color: black;
           background: #B5D4D0;
-          text-decoration: none; }
+          text-decoration: none;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -ms-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.3s;
+          -moz-transition-duration: 0.3s;
+          -ms-transition-duration: 0.3s;
+          -o-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
 
-/* line 114, site.css.scss */
+/* line 127, site.css.scss */
 ul.nav {
   list-style-type: none; }
   /* line 5, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
@@ -245,56 +265,55 @@ ul.nav {
     margin: 0px;
     padding: 0px;
     display: inline; }
-  /* line 117, site.css.scss */
+  /* line 130, site.css.scss */
   ul.nav li {
     margin: 0 5px; }
 
-/* line 122, site.css.scss */
+/* line 135, site.css.scss */
 #page_title {
   background: rgba(95, 166, 155, 0.4);
   margin-bottom: 50px;
   padding: 1em 0; }
-  /* line 127, site.css.scss */
+  /* line 140, site.css.scss */
   #page_title h1 {
     text-align: center;
     color: #000; }
 
-/* line 133, site.css.scss */
+/* line 146, site.css.scss */
 #main {
   background: rgba(255, 255, 255, 0.3); }
-  /* line 135, site.css.scss */
+  /* line 148, site.css.scss */
   #main .container {
     padding: 0 0 50px 0; }
-    /* line 138, site.css.scss */
+    /* line 151, site.css.scss */
     #main .container > div {
-      padding-bottom: 25px;
-      overflow: hidden; }
+      padding-bottom: 25px; }
 
-/* line 145, site.css.scss */
+/* line 157, site.css.scss */
 .content {
   margin: 0;
   font-size: 1.2em;
   line-height: 1.4em; }
   @media only screen and (max-width: 767px) {
-    /* line 145, site.css.scss */
+    /* line 157, site.css.scss */
     .content {
       margin: 0 10px; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 155, site.css.scss */
+  /* line 167, site.css.scss */
   .intro {
     display: inline;
     float: left;
     width: 940px;
     margin: 0 10px; } }
 
-/* line 175, site.css.scss */
+/* line 191, site.css.scss */
 ul.social li {
   margin: 10px 0; }
-  /* line 178, site.css.scss */
+  /* line 194, site.css.scss */
   ul.social li a {
     line-height: 56px;
-    padding: 0 0 0 60px;
+    margin: 0 60px 0 0;
     background: no-repeat left center;
     display: -moz-inline-box;
     -moz-box-orient: vertical;
@@ -304,72 +323,192 @@ ul.social li {
     /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
     ul.social li a {
       *display: inline; }
-  /* line 164, site.css.scss */
+  /* line 176, site.css.scss */
   ul.social li.twitter a {
-    background-image: url("../images/social_twitter_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_twitter_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   ul.social li.twitter a:hover {
-    background-image: url("../images/social_twitter_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_twitter_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   ul.social li.linkedin a {
-    background-image: url("../images/social_linkedin_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_linkedin_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   ul.social li.linkedin a:hover {
-    background-image: url("../images/social_linkedin_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_linkedin_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   ul.social li.github a {
-    background-image: url("../images/social_github_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_github_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   ul.social li.github a:hover {
-    background-image: url("../images/social_github_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_github_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   ul.social li.facebook a {
-    background-image: url("../images/social_facebook_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_facebook_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   ul.social li.facebook a:hover {
-    background-image: url("../images/social_facebook_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_facebook_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   ul.social li.googleplus a {
-    background-image: url("../images/social_googleplus_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_googleplus_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   ul.social li.googleplus a:hover {
-    background-image: url("../images/social_googleplus_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_googleplus_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   ul.social li.tumblr a {
-    background-image: url("../images/social_tumblr_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_tumblr_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   ul.social li.tumblr a:hover {
-    background-image: url("../images/social_tumblr_50blw.png"); }
+    background-image: url("../images/social_tumblr_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
 
-/* line 190, site.css.scss */
+/* line 206, site.css.scss */
 #twitter h4 {
   margin: 0 0 0 30px;
   padding: 0 0 0 30px;
   background: url("../images/twitter_bird.png") no-repeat left bottom; }
-  /* line 195, site.css.scss */
+  /* line 211, site.css.scss */
   #twitter h4 a {
     color: #fff; }
-/* line 200, site.css.scss */
+/* line 216, site.css.scss */
 #twitter #twitter_bird {
   background: url("../images/twitter_bird.png") no-repeat;
   width: 25px;
   height: 17px;
   float: left;
   margin: 0 0 0 30px; }
-/* line 207, site.css.scss */
+/* line 223, site.css.scss */
 #twitter #twitter_update_list {
   list-style: none;
   color: black;
   float: left; }
-  /* line 212, site.css.scss */
+  /* line 228, site.css.scss */
   #twitter #twitter_update_list li {
     list-style: none;
     position: relative;
     margin: 10px 0 0; }
-    /* line 217, site.css.scss */
+    /* line 233, site.css.scss */
     #twitter #twitter_update_list li div.left {
       position: absolute; }
-    /* line 220, site.css.scss */
+    /* line 236, site.css.scss */
     #twitter #twitter_update_list li div.right {
       background: url("../images/twitter_bubbles_2.png") no-repeat;
       width: 25px;
@@ -377,17 +516,17 @@ ul.social li {
       position: absolute;
       right: 0;
       top: -20px; }
-    /* line 230, site.css.scss */
+    /* line 246, site.css.scss */
     #twitter #twitter_update_list li.odd div.left {
       background: url("../images/twitter_bubbles_3.png") no-repeat;
       width: 26px;
       height: 56px;
       left: 0;
       top: -20px; }
-    /* line 238, site.css.scss */
+    /* line 254, site.css.scss */
     #twitter #twitter_update_list li.odd div.right {
       display: none; }
-    /* line 243, site.css.scss */
+    /* line 259, site.css.scss */
     #twitter #twitter_update_list li div.tweet {
       margin: 0 30px 0 35px;
       padding: 5px;
@@ -402,14 +541,14 @@ ul.social li {
       box-shadow: 1px 1px 4px black;
       min-height: 30px; }
 
-/* line 256, site.css.scss */
+/* line 272, site.css.scss */
 .recent_posts div.post {
   padding: 0;
   margin-bottom: 1.5em; }
-/* line 261, site.css.scss */
+/* line 277, site.css.scss */
 .recent_posts p {
   margin-bottom: 0.25em; }
-/* line 265, site.css.scss */
+/* line 281, site.css.scss */
 .recent_posts img {
   float: left;
   margin: 0 4px 4px 0;
@@ -530,49 +669,131 @@ ul.social li {
 
 /* line 2, blog.css.scss */
 .blog .content {
-  width: 70%;
-  float: left; }
+  float: left;
+  width: 69%; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 2, blog.css.scss */
+    .blog .content {
+      margin-left: 1%; } }
   @media only screen and (max-width: 767px) {
     /* line 2, blog.css.scss */
     .blog .content {
       width: auto; } }
 
-/* line 12, blog.css.scss */
+/* line 17, blog.css.scss */
 article {
-  position: relative; }
-  /* line 15, blog.css.scss */
+  font-size: 0.9em;
+  position: relative;
+  margin: 0 0 45px 3em;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
+  /* line 26, blog.css.scss */
+  article h1 {
+    font-size: 2.5em; }
+  /* line 30, blog.css.scss */
+  article h2 {
+    font-size: 2em; }
+  /* line 34, blog.css.scss */
   article header {
     min-height: 80px; }
-    /* line 18, blog.css.scss */
+    /* line 37, blog.css.scss */
     article header h1 {
-      margin-left: 75px; }
-    /* line 22, blog.css.scss */
+      font-size: 3em; }
+    /* line 41, blog.css.scss */
     article header .date {
       width: 65px;
       height: 65px;
       background: url("../images/green_circle_65.png") no-repeat;
       font-family: BebasNeueRegular;
       position: absolute;
-      top: 0;
-      left: 0; }
-      /* line 32, blog.css.scss */
+      top: 15px;
+      left: -45px; }
+      /* line 51, blog.css.scss */
       article header .date span {
         display: block;
         text-align: center;
         line-height: 1em; }
-        /* line 37, blog.css.scss */
+        /* line 56, blog.css.scss */
         article header .date span.month {
           font-size: 20px;
           padding-top: 12px; }
-        /* line 42, blog.css.scss */
+        /* line 61, blog.css.scss */
         article header .date span.day {
           font-size: 26px; }
-        /* line 46, blog.css.scss */
+        /* line 65, blog.css.scss */
         article header .date span.year {
           font-size: 18px;
           display: none; }
+  /* line 73, blog.css.scss */
+  article img {
+    max-width: 100%;
+    height: auto; }
+  /* line 78, blog.css.scss */
+  article .entry-categories {
+    font-size: 0.9em; }
+    /* line 81, blog.css.scss */
+    article .entry-categories ul {
+      display: inline; }
+      /* line 84, blog.css.scss */
+      article .entry-categories ul li {
+        display: -moz-inline-box;
+        -moz-box-orient: vertical;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        margin-bottom: 0.5em; }
+        /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+        article .entry-categories ul li {
+          *display: inline; }
+        /* line 88, blog.css.scss */
+        article .entry-categories ul li a {
+          background: rgba(80, 32, 32, 0.5);
+          padding: 4px 8px;
+          margin-right: 0.5em;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -ms-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.3s;
+          -moz-transition-duration: 0.3s;
+          -ms-transition-duration: 0.3s;
+          -o-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
+          /* line 95, blog.css.scss */
+          article .entry-categories ul li a:hover {
+            background: rgba(20, 78, 169, 0.5);
+            color: #000000;
+            text-decoration: none;
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -ms-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.3s;
+            -moz-transition-duration: 0.3s;
+            -ms-transition-duration: 0.3s;
+            -o-transition-duration: 0.3s;
+            transition-duration: 0.3s; }
+  /* line 106, blog.css.scss */
+  article .entry-timestamp {
+    font-size: 0.8em;
+    color: #777; }
 
-/* line 55, blog.css.scss */
+/* line 112, blog.css.scss */
 div.sidebar {
   width: 28%;
   margin-left: 2%;
@@ -688,40 +909,160 @@ footer ul.social {
     white-space: nowrap;
     overflow: hidden;
     display: block;
-    width: 50px; }
-  /* line 164, site.css.scss */
+    width: 56px; }
+  /* line 176, site.css.scss */
   footer ul.social li.twitter a {
-    background-image: url("../images/social_twitter_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_twitter_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   footer ul.social li.twitter a:hover {
-    background-image: url("../images/social_twitter_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_twitter_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   footer ul.social li.linkedin a {
-    background-image: url("../images/social_linkedin_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_linkedin_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   footer ul.social li.linkedin a:hover {
-    background-image: url("../images/social_linkedin_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_linkedin_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   footer ul.social li.github a {
-    background-image: url("../images/social_github_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_github_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   footer ul.social li.github a:hover {
-    background-image: url("../images/social_github_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_github_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   footer ul.social li.facebook a {
-    background-image: url("../images/social_facebook_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_facebook_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   footer ul.social li.facebook a:hover {
-    background-image: url("../images/social_facebook_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_facebook_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   footer ul.social li.googleplus a {
-    background-image: url("../images/social_googleplus_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_googleplus_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   footer ul.social li.googleplus a:hover {
-    background-image: url("../images/social_googleplus_50blw.png"); }
-  /* line 164, site.css.scss */
+    background-image: url("../images/social_googleplus_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 176, site.css.scss */
   footer ul.social li.tumblr a {
-    background-image: url("../images/social_tumblr_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_tumblr_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 181, site.css.scss */
   footer ul.social li.tumblr a:hover {
-    background-image: url("../images/social_tumblr_50blw.png"); }
+    background-image: url("../images/social_tumblr_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
