@@ -41,9 +41,6 @@
             <li>
               <a class="blog active" href="/blog">blog</a>
             </li>
-            <li>
-              <a class="contact" href="/contact">contact</a>
-            </li>
           </ul>
         </nav>
       </div>
