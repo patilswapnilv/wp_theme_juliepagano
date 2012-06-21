@@ -6,16 +6,22 @@
       </div>
       <div class='container'>
         <div class='content'>
-          <?php if ( have_posts() ) : ?>
-            <?php while ( have_posts() ) : the_post(); ?>
-              <?php get_template_part( 'content', get_post_format() ); ?>
-            <?php endwhile; ?>
-          <?php else : ?>
-            No blog posts available.
-          <?php endif; ?>
-        </div>
-        <div class='sidebar'>
-          <?php get_sidebar(); ?>
+          <div class="blog_posts">
+            <?php if ( have_posts() ) : ?>
+              <?php while ( have_posts() ) : the_post(); ?>
+                <?php get_template_part( 'content', get_post_format() ); ?>
+              <?php endwhile; ?>
+            <?php else : ?>
+              No blog posts available.
+            <?php endif; ?>
+
+            <div class="pagination">
+              <?php posts_nav_link(); ?>
+            </div>
+          </div>
+          <div class='sidebar'>
+            <?php get_sidebar(); ?>
+          </div>
         </div>
       </div>
     </div>

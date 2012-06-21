@@ -11,6 +11,9 @@
         <?php the_time('d'); ?>
       </span>
     </div>
+    <div class="entry-timestamp">
+      Posted on <?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?>
+    </div>
   </header>
   <?php the_content(); ?>
   <footer>
@@ -28,11 +31,8 @@
         <?php } ?>
       </ul>
     </div>
-    <div class="entry-timestamp">
-      <?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?>
-    </div>
   </footer>
-  <section class="comments">
+  <section class="comment-container">
     <?php comments_template(); ?>
   </section>
 </article>
